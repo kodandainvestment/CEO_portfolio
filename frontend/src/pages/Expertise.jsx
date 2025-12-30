@@ -9,33 +9,33 @@ function Expertise() {
     const expertise = [
         {
             icon: <FaArrowTrendUp />,
-            title: "Strategic Growth",
-            des: "Architecting scalable business models and driving sustainable revenue growth across global markets.",
+            title: "Financial Analysis",
+            des: "Expert analysis of financial markets, investment opportunities, and strategic financial decision-making.",
         },
         {
             icon: <RiTeamFill />,
-            title: "Team Leadership",
-            des: "Building high-performance executive teams and fostering cultures of innovation and accountability.",
+            title: "Investment Strategies",
+            des: "Developing comprehensive investment portfolios and strategies aligned with organizational growth objectives.",
         },
         {
             icon: <CiCircleMore />,
-            title: "Operational Excellence",
-            des: "Streamlining operations to maximize efficiency while maintaining the highest quality standards.",
+            title: "Business Analysis",
+            des: "Analyzing market trends, business opportunities, and operational efficiency to drive sustainable growth.",
         },
         {
             icon: <IoBulbOutline />,
-            title: "Innovation Strategy",
-            des: "Identifying disruptive opportunities and implementing cutting-edge solutions across industries.",
+            title: "Financial Advisory",
+            des: "Providing strategic financial guidance and advisory services to support informed business decisions.",
         },
         {
             icon: <FiShield />,
-            title: "Risk Management",
-            des: "Navigating complex regulatory landscapes and mitigating enterprise-level risks proactively.",
+            title: "Financial Reporting",
+            des: "Comprehensive financial reporting and budgeting to ensure transparency and regulatory compliance.",
         },
         {
             icon: <RiGlobalLine />,
-            title: "Global Expansion",
-            des: "Leading international market entry strategies and cross-cultural business development.",
+            title: "Financial Accounting",
+            des: "Managing financial accounting processes and ensuring accurate financial record-keeping and analysis.",
         }
     ];
 
@@ -49,10 +49,10 @@ function Expertise() {
             <div className='container mx-auto relative z-10'>
                 <div className='text-center mb-8 sm:mb-12'>
                     <h1 className='text-white font-bold text-3xl sm:text-4xl lg:text-5xl mb-4'>
-                        Leadership <span className='text-orange-700'>Expertise</span>
+                        Financial <span className='text-orange-700'>Expertise</span>
                     </h1>
                     <p className='text-white text-base sm:text-lg px-4'>
-                        Two decades of executive experience across Fortune 500 companies, startups, and global enterprises.
+                        Specialized expertise in investment strategies, financial markets, and business analysis with academic foundation from IIM Indore.
                     </p>
                 </div>
                 

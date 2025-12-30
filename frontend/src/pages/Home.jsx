@@ -15,23 +15,23 @@ function Home() {
                     {/* Badge */}
                     <div className='inline-flex items-center px-4 py-2 bg-orange-700/20 border border-orange-700/30 rounded-full w-fit animate-fade-in-up'>
                         <div className='w-2 h-2 bg-orange-500 rounded-full mr-3 animate-pulse'></div>
-                        <span className='text-orange-500 text-sm font-medium'>Chief Executive Officer</span>
+                        <span className='text-orange-500 text-sm font-medium'>CEO @ Kodanda Investments</span>
                     </div>
                     
                     {/* Main Heading */}
                     <div className='space-y-2'>
                         <h1 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight animate-fade-in-up animation-delay-200'>
-                            Driving <span className='text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-orange-700 animate-gradient'>Vision</span>,
+                            Chahat <span className='text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-orange-700 animate-gradient'>Tiwari</span>
                         </h1>
                         <h1 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight animate-fade-in-up animation-delay-400'>
-                            Delivering Results
+                            Investment Strategist
                         </h1>
                     </div>
                     
                     {/* Description */}
                     <p className='text-gray-400 text-base lg:text-lg leading-relaxed animate-fade-in-up animation-delay-600'>
-                        Transforming enterprises through strategic leadership and innovative thinking. 
-                        <span className='text-orange-500 font-medium'> Over 20 years</span> of building billion-dollar organizations.
+                        Leading strategic investment decisions and financial market analysis at Kodanda Investments. 
+                        <span className='text-orange-500 font-medium'>BBA+MBA from IIM Indore</span> with expertise in financial markets.
                     </p>
                     
                     {/* CTA Buttons */}
@@ -48,16 +48,16 @@ function Home() {
                     {/* Stats */}
                     <div className='flex flex-wrap gap-6 pt-4 border-t border-gray-800 animate-fade-in-up animation-delay-1000'>
                         <div className='text-center group cursor-pointer'>
-                            <div className='text-xl font-bold text-orange-500 group-hover:scale-110 transition-transform duration-300'>20+</div>
-                            <div className='text-gray-500 text-xs'>Years Experience</div>
+                            <div className='text-xl font-bold text-orange-500 group-hover:scale-110 transition-transform duration-300'>5+</div>
+                            <div className='text-gray-500 text-xs'>Months as CEO</div>
                         </div>
                         <div className='text-center group cursor-pointer'>
-                            <div className='text-xl font-bold text-orange-500 group-hover:scale-110 transition-transform duration-300'>$15B+</div>
-                            <div className='text-gray-500 text-xs'>Revenue Generated</div>
+                            <div className='text-xl font-bold text-orange-500 group-hover:scale-110 transition-transform duration-300'>IIM</div>
+                            <div className='text-gray-500 text-xs'>Indore Graduate</div>
                         </div>
                         <div className='text-center group cursor-pointer'>
-                            <div className='text-xl font-bold text-orange-500 group-hover:scale-110 transition-transform duration-300'>8</div>
-                            <div className='text-gray-500 text-xs'>Companies Led</div>
+                            <div className='text-xl font-bold text-orange-500 group-hover:scale-110 transition-transform duration-300'>Finance</div>
+                            <div className='text-gray-500 text-xs'>Specialization</div>
                         </div>
                     </div>
                 </div>
@@ -69,7 +69,7 @@ function Home() {
                         <div className='relative w-80 h-96 lg:w-96 lg:h-[500px] animate-fade-in-up animation-delay-300'>
                             <img 
                                 src={ceoImg} 
-                                alt="CEO Portrait" 
+                                alt="Chahat Tiwari - CEO Portrait" 
                                 className='w-full h-full object-cover object-top rounded-3xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500' 
                             />
                             {/* Overlay */}

@@ -5,23 +5,23 @@ export default function Leadership() {
   const principles = [
     {
       icon: <FaLightbulb />,
-      title: "Innovation First",
-      description: "Fostering a culture where breakthrough ideas are not just welcomed, but actively pursued and implemented."
+      title: "Strategic Investment",
+      description: "Focusing on data-driven investment decisions and comprehensive market analysis to maximize returns and minimize risks."
     },
     {
       icon: <FaUsers />,
-      title: "People-Centric",
-      description: "Building high-performance teams by investing in talent development and creating inclusive environments."
+      title: "Continuous Learning",
+      description: "Balancing academic excellence at IIM Indore with practical leadership experience to drive organizational growth."
     },
     {
       icon: <FaRocket />,
-      title: "Results-Driven",
-      description: "Maintaining unwavering focus on measurable outcomes while adapting strategies based on market dynamics."
+      title: "Financial Excellence",
+      description: "Maintaining focus on financial analysis, reporting, and budgeting to ensure sustainable business operations."
     },
     {
       icon: <FaHandshake />,
       title: "Ethical Leadership",
-      description: "Leading with integrity, transparency, and accountability in every decision and business practice."
+      description: "Leading with integrity and transparency while fostering growth and value creation for all stakeholders."
     }
   ];
 
@@ -41,7 +41,7 @@ export default function Leadership() {
             Leadership <span className='text-orange-700'>Philosophy</span>
           </h1>
           <p className='text-gray-400 text-base sm:text-lg max-w-2xl mx-auto'>
-            Guiding principles that drive transformational change and sustainable growth in every organization I lead.
+            Core principles that guide strategic investment decisions and organizational leadership at Kodanda Investments.
           </p>
         </div>
 
@@ -117,9 +117,9 @@ export default function Leadership() {
           <div className="relative backdrop-blur-sm bg-black/30 border border-orange-700/30 rounded-3xl p-12 shadow-2xl">
             <div className="text-orange-700 text-6xl mb-6 animate-pulse">"</div>
             <blockquote className="text-2xl lg:text-3xl font-light text-white leading-relaxed mb-6 font-serif">
-              Great leaders don't create followers, they create more leaders. Success is not just about reaching the destination, but about empowering others to surpass your own achievements.
+              Success in investment and leadership comes from combining academic knowledge with practical experience, always focusing on sustainable growth and value creation for all stakeholders.
             </blockquote>
-            <div className="text-orange-500 font-bold text-lg tracking-wider">— LEADERSHIP PHILOSOPHY</div>
+            <div className="text-orange-500 font-bold text-lg tracking-wider">— CHAHAT TIWARI, CEO</div>
           </div>
         </div>
       </div>

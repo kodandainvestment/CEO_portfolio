@@ -8,18 +8,18 @@ function About() {
     const block = [
         {
             icon: <CgAwards />,
-            numbers: "15+",
-            name: "Awards",
+            numbers: "5+",
+            name: "Months as CEO",
         },
         {
             icon: <PiBuildingApartmentFill />,
-            numbers: "8",
-            name: "Companies",
+            numbers: "1",
+            name: "Company Led",
         },
         {
             icon: <TbCalendarEvent />,
-            numbers: "$15B+",
-            name: "Revenue",
+            numbers: "IIM",
+            name: "Graduate",
         },
     ]
     
@@ -39,7 +39,7 @@ function About() {
                         <div className='relative w-full max-w-md mx-auto'>
                             <img
                                 src={ceoImg}
-                                alt="CEO Portrait"
+                                alt="Chahat Tiwari - CEO Portrait"
                                 className='w-full h-96 lg:h-[480px] object-cover object-top rounded-3xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500'
                             />
                             {/* Professional Badge */}
@@ -76,10 +76,10 @@ function About() {
                         
                         <div className='space-y-2'>
                             <h1 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight'>
-                                Building Tomorrow's
+                                Strategic Investment
                             </h1>
                             <h1 className='text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight'>
-                                <span className='text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-orange-700'>Leaders</span>
+                                <span className='text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-orange-700'>Leadership</span>
                             </h1>
                         </div>
                     </div>
@@ -88,16 +88,15 @@ function About() {
                     <div className='space-y-6'>
                         <div className='relative pl-6 border-l-4 border-orange-700'>
                             <p className='text-gray-300 text-base lg:text-lg leading-relaxed'>
-                                As a seasoned executive with over two decades of experience, I've led transformative initiatives across 
-                                <span className='text-orange-500 font-medium'> technology, finance, and healthcare</span> sectors.
+                                As CEO of Kodanda Investments Private Limited, I lead strategic investment decisions and financial market analysis with 
+                                <span className='text-orange-500 font-medium'> expertise in share markets and investment strategies</span>.
                             </p>
                         </div>
                         
                         <div className='bg-gradient-to-r from-gray-900/50 to-transparent p-6 rounded-2xl border-l-4 border-orange-500'>
                             <p className='text-gray-300 text-base lg:text-lg leading-relaxed'>
-                                I believe exceptional leadership is about 
-                                <span className='text-white font-medium'> empowering teams</span> and creating 
-                                environments where innovation thrives.
+                                Currently pursuing 
+                                <span className='text-white font-medium'> BBA+MBA from IIM Indore</span> with focus on Business Administration, Management, and Finance.
                             </p>
                         </div>
                     </div>
@@ -106,19 +105,19 @@ function About() {
                     <div className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
                         <div className='flex items-center space-x-3 p-4 bg-gray-900/50 rounded-xl'>
                             <div className='w-3 h-3 bg-orange-500 rounded-full'></div>
-                            <span className='text-gray-300'>Fortune 500 Experience</span>
+                            <span className='text-gray-300'>Financial Analysis</span>
                         </div>
                         <div className='flex items-center space-x-3 p-4 bg-gray-900/50 rounded-xl'>
                             <div className='w-3 h-3 bg-orange-500 rounded-full'></div>
-                            <span className='text-gray-300'>Global Market Expansion</span>
+                            <span className='text-gray-300'>Investment Strategies</span>
                         </div>
                         <div className='flex items-center space-x-3 p-4 bg-gray-900/50 rounded-xl'>
                             <div className='w-3 h-3 bg-orange-500 rounded-full'></div>
-                            <span className='text-gray-300'>Digital Transformation</span>
+                            <span className='text-gray-300'>Business Analysis</span>
                         </div>
                         <div className='flex items-center space-x-3 p-4 bg-gray-900/50 rounded-xl'>
                             <div className='w-3 h-3 bg-orange-500 rounded-full'></div>
-                            <span className='text-gray-300'>Team Development</span>
+                            <span className='text-gray-300'>Financial Markets</span>
                         </div>
                     </div>
                     

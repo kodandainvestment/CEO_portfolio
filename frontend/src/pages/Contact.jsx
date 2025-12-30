@@ -37,7 +37,7 @@ function Contact() {
             <div className='container mx-auto'>
                 <div className='text-center mb-8 sm:mb-12'>
                     <h1 className='text-white text-3xl sm:text-4xl lg:text-5xl font-bold mb-4'>Get i<span className='text-orange-700'>n Touch</span></h1>
-                    <p className='text-gray-400 text-base sm:text-lg max-w-2xl mx-auto'>Interested in strategic consultation, speaking engagements, or board positions? I'd love to hear from you.</p>
+                    <p className='text-gray-400 text-base sm:text-lg max-w-2xl mx-auto'>Interested in investment opportunities, financial consultation, or business partnerships? Let's connect and explore possibilities.</p>
                 </div>
                 
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12'>

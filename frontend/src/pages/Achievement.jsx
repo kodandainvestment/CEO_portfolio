@@ -6,53 +6,53 @@ function Achievement() {
   const achievements = [
     {
       icon: <FaTrophy />,
-      title: "CEO of the Year",
-      year: "2023",
-      organization: "Business Excellence Awards",
-      description: "Recognized for outstanding leadership in digital transformation and sustainable growth."
+      title: "CEO Leadership Role",
+      year: "2025",
+      organization: "Kodanda Investments Private Limited",
+      description: "Leading strategic investment decisions and financial market analysis as Chief Executive Officer."
     },
     {
       icon: <FaChartLine />,
-      title: "$5B Revenue Milestone",
+      title: "IIM Indore Admission",
       year: "2022",
-      organization: "TechCorp Industries",
-      description: "Led company to achieve record-breaking revenue growth of 340% over 3 years."
+      organization: "Indian Institute of Management, Indore",
+      description: "Pursuing BBA+MBA with specialization in Business Administration, Management, and Finance."
     },
     {
       icon: <FaGlobe />,
-      title: "Global Expansion Leader",
-      year: "2021",
-      organization: "International Business Forum",
-      description: "Successfully expanded operations to 15 countries, establishing market presence in Asia-Pacific."
+      title: "Financial Markets Expertise",
+      year: "2025",
+      organization: "Investment Strategies",
+      description: "Developed comprehensive expertise in share markets and investment strategies for sustainable growth."
     },
     {
       icon: <MdBusinessCenter />,
-      title: "Innovation Excellence",
-      year: "2020",
-      organization: "Tech Innovation Council",
-      description: "Pioneered AI-driven solutions that revolutionized industry standards and practices."
+      title: "Business Analysis Skills",
+      year: "2024",
+      organization: "Professional Development",
+      description: "Advanced proficiency in financial analysis, business analysis, and strategic decision-making."
     },
     {
       icon: <FaAward />,
-      title: "Leadership Excellence",
-      year: "2019",
-      organization: "Harvard Business Review",
-      description: "Featured as one of the top 50 transformational leaders reshaping modern business."
+      title: "Chess Excellence",
+      year: "Ongoing",
+      organization: "IIM Indore Activities",
+      description: "Active participation in chess activities, demonstrating strategic thinking and analytical skills."
     },
     {
       icon: <BsGraphUpArrow />,
-      title: "IPO Success",
-      year: "2018",
-      organization: "NASDAQ",
-      description: "Led successful IPO raising $2.3B, one of the largest tech IPOs of the year."
+      title: "Hybrid Leadership",
+      year: "2025",
+      organization: "Indore, Madhya Pradesh",
+      description: "Successfully managing CEO responsibilities in hybrid work environment, balancing studies and leadership."
     }
   ];
 
   const stats = [
-    { number: "20+", label: "Years Experience" },
-    { number: "$15B+", label: "Revenue Generated" },
-    { number: "50+", label: "Awards Won" },
-    { number: "8", label: "Companies Led" }
+    { number: "5+", label: "Months as CEO" },
+    { number: "IIM", label: "Indore Graduate" },
+    { number: "2027", label: "Graduation Year" },
+    { number: "1", label: "Company Leading" }
   ];
 
   return (
@@ -64,7 +64,7 @@ function Achievement() {
             Key <span className='text-orange-700'>Achievements</span>
           </h1>
           <p className='text-gray-400 text-base sm:text-lg max-w-2xl mx-auto'>
-            A track record of transformational leadership, driving innovation, and delivering exceptional results across multiple industries.
+            Current achievements and milestones in leadership, education, and professional development at Kodanda Investments.
           </p>
         </div>
 
