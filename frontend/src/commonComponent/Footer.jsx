@@ -1,10 +1,26 @@
 import { FaLinkedin, FaTwitter, FaEnvelope, FaPhone } from "react-icons/fa";
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 export default function Footer() {
+  const location = useLocation();
+  const navigate = useNavigate();
+  const isMainPortfolio = location.pathname === '/';
+
   const scrollToSection = (sectionId) => {
-    const element = document.getElementById(sectionId)
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' })
+    if (isMainPortfolio) {
+      const element = document.getElementById(sectionId)
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' })
+      }
+    } else {
+      // Navigate to main portfolio and then scroll
+      navigate('/');
+      setTimeout(() => {
+        const element = document.getElementById(sectionId);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
     }
   }
 
@@ -87,11 +103,11 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-8 sm:mt-12 pt-6 sm:pt-8 flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
           <div className="text-gray-400 text-xs sm:text-sm text-center sm:text-left">
-            © 2024 CEO Portfolio. All rights reserved.
+             © 2025 Chahat Tiwari. All rights reserved.
           </div>
           <div className="flex space-x-4 sm:space-x-6 text-xs sm:text-sm">
-            <a href="#" className="text-gray-400 hover:text-orange-500 transition-colors">Privacy Policy</a>
-            <a href="#" className="text-gray-400 hover:text-orange-500 transition-colors">Terms of Service</a>
+            <Link to="/privacy-policy" className="text-gray-400 hover:text-orange-500 transition-colors">Privacy Policy</Link>
+            <Link to="/terms-of-service" className="text-gray-400 hover:text-orange-500 transition-colors">Terms of Service</Link>
           </div>
         </div>
       </div>

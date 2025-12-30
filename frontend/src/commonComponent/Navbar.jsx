@@ -1,12 +1,27 @@
 import React, { useState } from 'react'
+import { useLocation, useNavigate } from 'react-router-dom'
 
 export default function Navbar() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+    const location = useLocation();
+    const navigate = useNavigate();
+    const isMainPortfolio = location.pathname === '/';
 
     const scrollToSection = (sectionId) => {
-        const element = document.getElementById(sectionId)
-        if (element) {
-            element.scrollIntoView({ behavior: 'smooth' })
+        if (isMainPortfolio) {
+            const element = document.getElementById(sectionId)
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' })
+            }
+        } else {
+            // Navigate to main portfolio and then scroll
+            navigate('/');
+            setTimeout(() => {
+                const element = document.getElementById(sectionId);
+                if (element) {
+                    element.scrollIntoView({ behavior: 'smooth' });
+                }
+            }, 100);
         }
         setIsMobileMenuOpen(false)
     }
@@ -32,10 +47,10 @@ export default function Navbar() {
                                 </svg>
                             </button>
                         </div>
-                        <div className="flex items-center justify-start sm:items-stretch sm:justify-start">
-                            <h1 className='text-2xl font-bold text-orange-700 cursor-pointer' onClick={() => scrollToSection('home')}>C<span className='text-white'>EO</span></h1>
-                        </div>
-                        <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-center">
+                        <div className="flex flex-1 items-center justify-between sm:items-stretch sm:justify-between">
+                            <div className="flex items-center justify-center sm:justify-start ml-10 sm:ml-0">
+                                <h1 className='text-2xl font-bold text-orange-700 cursor-pointer' onClick={() => scrollToSection('home')}>C<span className='text-white'>EO</span></h1>
+                            </div>
                             <div className="hidden sm:ml-6 sm:block">
                                 <div className="flex space-x-4">
                                     <button onClick={() => scrollToSection('home')} className="rounded-md bg-gray-950/50 px-3 py-2 text-sm font-medium text-white hover:bg-orange-700/20 transition-colors">Home</button>
