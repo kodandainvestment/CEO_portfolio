@@ -96,7 +96,7 @@ function About() {
                         <div className='bg-gradient-to-r from-gray-900/50 to-transparent p-6 rounded-2xl border-l-4 border-orange-500'>
                             <p className='text-gray-300 text-base lg:text-lg leading-relaxed'>
                                 Currently pursuing 
-                                <span className='text-white font-medium'> BBA+MBA from IIM Indore</span> with focus on Business Administration, Management, and Finance.
+                                <span className='text-white font-medium'> MBA from IIM Indore</span> with focus on Business Administration, Management, and Finance.
                             </p>
                         </div>
                     </div>
