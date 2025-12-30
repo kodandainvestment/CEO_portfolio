@@ -123,10 +123,12 @@ function About() {
                     
                     {/* CTA */}
                     <div className='pt-4'>
-                        <button className='group inline-flex items-center px-8 py-4 bg-gradient-to-r from-orange-700 to-orange-600 text-black font-semibold rounded-xl hover:scale-105 transition-all duration-300'>
-                            <span>Work With Me</span>
-                            <IoMdArrowForward className='ml-2 transform group-hover:translate-x-1 transition-transform duration-300' />
-                        </button>
+                        <a href="#contact">
+                            <button className='group inline-flex items-center px-8 py-4 bg-gradient-to-r from-orange-700 to-orange-600 text-black font-semibold rounded-xl hover:scale-105 transition-all duration-300'>
+                                <span>Work With Me</span>
+                                <IoMdArrowForward className='ml-2 transform group-hover:translate-x-1 transition-transform duration-300' />
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>

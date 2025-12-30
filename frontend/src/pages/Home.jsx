@@ -1,4 +1,5 @@
 import ceoImg from '/ceo.png'
+import Contact from './Contact.jsx';
 
 function Home() {
     return (
@@ -36,13 +37,17 @@ function Home() {
                     
                     {/* CTA Buttons */}
                     <div className='flex flex-col sm:flex-row gap-3 pt-3 animate-fade-in-up animation-delay-800'>
-                        <button className='group relative px-6 py-3 bg-gradient-to-r from-orange-700 to-orange-600 text-black font-semibold rounded-xl overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-orange-700/25'>
-                            <span className='relative z-10'>GET IN TOUCH</span>
-                            <div className='absolute inset-0 bg-gradient-to-r from-orange-600 to-orange-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
-                        </button>
-                        <button className='group px-6 py-3 border-2 border-orange-700 text-orange-700 font-semibold rounded-xl hover:bg-orange-700 hover:text-black transition-all duration-300 hover:scale-105'>
-                            VIEW MY WORK
-                        </button>
+                        <a href="#contact">
+                            <button className='group relative px-6 py-3 bg-gradient-to-r from-orange-700 to-orange-600 text-black font-semibold rounded-xl overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-orange-700/25'>
+                                <span className='relative z-10'>GET IN TOUCH</span>
+                                <div className='absolute inset-0 bg-gradient-to-r from-orange-600 to-orange-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
+                            </button>
+                        </a>
+                        <a href="#achievement">
+                            <button className='group px-6 py-3 border-2 border-orange-700 text-orange-700 font-semibold rounded-xl hover:bg-orange-700 hover:text-black transition-all duration-300 hover:scale-105'>
+                                VIEW MY WORK
+                            </button>
+                        </a>
                     </div>
                     
                     {/* Stats */}

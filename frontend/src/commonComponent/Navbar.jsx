@@ -49,7 +49,9 @@ export default function Navbar() {
                         </div>
                         <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                             <div className="relative ml-3 bg-orange-700 rounded-lg hover:bg-orange-800 transition-colors">
+                                <a href="https://kodandainvestments.com/">
                                 <button className="relative flex rounded-full px-3 py-2 text-sm font-medium text-black focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-500">Visit Company</button>
+                                </a>
                             </div>
                         </div>
                     </div>
