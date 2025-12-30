@@ -40,28 +40,52 @@ function Expertise() {
     ];
 
     return (
-        <div className='bg-gray-950 py-16'>
-            <div className='container mx-auto px-4'>
-                <div className='text-center mb-12'>
-                    <h1 className='text-white font-bold text-5xl mb-4'>
+        <div className='bg-gray-950 py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden'>
+            {/* Background Pattern */}
+            <div className="absolute inset-0 opacity-5">
+                <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-orange-700 via-transparent to-orange-500"></div>
+            </div>
+            
+            <div className='container mx-auto relative z-10'>
+                <div className='text-center mb-8 sm:mb-12'>
+                    <h1 className='text-white font-bold text-3xl sm:text-4xl lg:text-5xl mb-4'>
                         Leadership <span className='text-orange-700'>Expertise</span>
                     </h1>
-                    <p className='text-white text-lg'>
+                    <p className='text-white text-base sm:text-lg px-4'>
                         Two decades of executive experience across Fortune 500 companies, startups, and global enterprises.
                     </p>
                 </div>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+                
+                {/* Diagonal Grid Layout */}
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8'>
                     {expertise.map((item, index) => (
-                        <div key={index} className='bg-gray-950 p-6 rounded-lg border border-gray-800 hover:border-orange-700 hover:shadow-[0_0_50px_rgba(194,65,12,0.5)] transition-all duration-300'>
-                            <div className='bg-orange-700 bg-opacity-20 text-orange-700 text-3xl mb-4 w-12 h-12 flex items-center justify-center rounded-lg'>
-                                {item.icon}
+                        <div key={index} className='group relative transform transition-all duration-500 hover:-translate-y-4'>
+                            {/* Main Card */}
+                            <div className='relative bg-gradient-to-br from-gray-900 to-black p-6 rounded-2xl border-l-4 border-orange-700 hover:border-l-8 transition-all duration-300 shadow-xl hover:shadow-2xl h-full'>
+                                {/* Icon Circle */}
+                                <div className='relative mb-4'>
+                                    <div className='w-16 h-16 bg-gradient-to-br from-orange-700 to-orange-500 rounded-full flex items-center justify-center text-2xl text-white transform group-hover:scale-110 transition-transform duration-300'>
+                                        {item.icon}
+                                    </div>
+                                    <div className='absolute -inset-2 bg-orange-700/20 rounded-full blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
+                                </div>
+                                
+                                {/* Content */}
+                                <h3 className='text-white text-xl font-bold mb-3 group-hover:text-orange-300 transition-colors duration-300'>
+                                    {item.title}
+                                </h3>
+                                <p className='text-gray-400 text-sm leading-relaxed group-hover:text-gray-300 transition-colors duration-300'>
+                                    {item.des}
+                                </p>
+                                
+                                {/* Hover Accent */}
+                                <div className='absolute top-0 right-0 w-20 h-20 bg-gradient-to-bl from-orange-700/20 to-transparent rounded-bl-full opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
                             </div>
-                            <h3 className='text-white text-xl font-semibold mb-3'>
-                                {item.title}
-                            </h3>
-                            <p className='text-gray-300 text-sm leading-relaxed'>
-                                {item.des}
-                            </p>
+                            
+                            {/* Number Badge */}
+                            <div className='absolute -top-3 -right-3 w-8 h-8 bg-orange-700 text-black rounded-full flex items-center justify-center text-sm font-bold transform group-hover:scale-125 transition-transform duration-300'>
+                                {index + 1}
+                            </div>
                         </div>
                     ))}
                 </div>
