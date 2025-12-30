@@ -31,7 +31,7 @@ function Home() {
                     {/* Description */}
                     <p className='text-gray-400 text-base lg:text-lg leading-relaxed animate-fade-in-up animation-delay-600'>
                         Leading strategic investment decisions and financial market analysis at Kodanda Investments. 
-                        <span className='text-orange-500 font-medium'>MBA from IIM Indore</span> with expertise in financial markets.
+                        <span className='text-orange-500 font-medium '> MBA from IIM Indore</span> with expertise in financial markets.
                     </p>
                     
                     {/* CTA Buttons */}

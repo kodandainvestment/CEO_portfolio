@@ -22,16 +22,16 @@ export default function Footer() {
               Transforming enterprises through strategic leadership, innovative thinking, and a relentless pursuit of excellence. Ready to drive your organization's next breakthrough.
             </p>
             <div className="flex space-x-3 sm:space-x-4">
-              <a href="#" className="bg-orange-700 bg-opacity-20 text-orange-700 w-8 h-8 sm:w-10 sm:h-10 rounded-lg flex items-center justify-center hover:bg-orange-700 hover:text-black transition-all duration-300">
+              <a href="https://www.linkedin.com/in/chahat-tiwari-2619a6252/" className="bg-orange-700 bg-opacity-20 text-orange-700 w-8 h-8 sm:w-10 sm:h-10 rounded-lg flex items-center justify-center hover:bg-orange-700 hover:text-black transition-all duration-300">
                 <FaLinkedin className="text-sm sm:text-base" />
               </a>
               <a href="#" className="bg-orange-700 bg-opacity-20 text-orange-700 w-8 h-8 sm:w-10 sm:h-10 rounded-lg flex items-center justify-center hover:bg-orange-700 hover:text-black transition-all duration-300">
                 <FaTwitter className="text-sm sm:text-base" />
               </a>
-              <a href="mailto:kodanda@gmail.com" className="bg-orange-700 bg-opacity-20 text-orange-700 w-8 h-8 sm:w-10 sm:h-10 rounded-lg flex items-center justify-center hover:bg-orange-700 hover:text-black transition-all duration-300">
+              <a href="mailto:kodandainvestments@gmail.com" className="bg-orange-700 bg-opacity-20 text-orange-700 w-8 h-8 sm:w-10 sm:h-10 rounded-lg flex items-center justify-center hover:bg-orange-700 hover:text-black transition-all duration-300">
                 <FaEnvelope className="text-sm sm:text-base" />
               </a>
-              <a href="tel:111-222-3333" className="bg-orange-700 bg-opacity-20 text-orange-700 w-8 h-8 sm:w-10 sm:h-10 rounded-lg flex items-center justify-center hover:bg-orange-700 hover:text-black transition-all duration-300">
+              <a href="tel:+91 74839 46281" className="bg-orange-700 bg-opacity-20 text-orange-700 w-8 h-8 sm:w-10 sm:h-10 rounded-lg flex items-center justify-center hover:bg-orange-700 hover:text-black transition-all duration-300">
                 <FaPhone className="text-sm sm:text-base" />
               </a>
             </div>
@@ -70,15 +70,15 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="text-gray-400">
                 <div className="text-xs sm:text-sm">Email</div>
-                <div className="text-white text-xs sm:text-sm break-all">kodanda@gmail.com</div>
+                <div className="text-white text-xs sm:text-sm break-all">kodandainvestments@gmail.com</div>
               </div>
               <div className="text-gray-400">
                 <div className="text-xs sm:text-sm">Phone</div>
-                <div className="text-white text-xs sm:text-sm">111-222-3333</div>
+                <div className="text-white text-xs sm:text-sm">+91 74839 46281</div>
               </div>
               <div className="text-gray-400">
                 <div className="text-xs sm:text-sm">Location</div>
-                <div className="text-white text-xs sm:text-sm">Indore, India</div>
+                <div className="text-white text-xs sm:text-sm">Indore, Madhya Pradesh, 452001</div>
               </div>
             </div>
           </div>
