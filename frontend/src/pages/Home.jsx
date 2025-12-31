@@ -3,7 +3,7 @@ import Contact from './Contact.jsx';
 
 function Home() {
     return (
-        <div className='bg-black flex items-center pt-16 pl-4 sm:pl-6 lg:pl-8 py-12 sm:py-16 lg:py-20 relative overflow-hidden'>
+        <div className='bg-black min-h-screen flex items-center justify-center pt-20 pl-4 sm:pl-6 lg:pl-8 py-12 sm:py-16 lg:py-20 relative overflow-hidden'>
             {/* Background Elements */}
             <div className="absolute inset-0">
                 <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-orange-700/10 to-transparent"></div>
@@ -82,7 +82,7 @@ function Home() {
                         </div>
                         
                         {/* Floating Elements */}
-                        <div className='absolute -top-6 -right-6 w-24 h-24 bg-gradient-to-br from-orange-700 to-orange-500 rounded-2xl flex items-center justify-center text-white font-bold text-lg shadow-xl animate-bounce'>
+                        <div className='absolute -top-6 -right-6 w-24 h-24 bg-gradient-to-br from-orange-700 to-orange-500 rounded-2xl hidden sm:flex items-center justify-center text-white font-bold text-lg shadow-xl animate-bounce'>
                             CEO
                         </div>
                         
