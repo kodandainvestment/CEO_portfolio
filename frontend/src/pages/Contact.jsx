@@ -33,7 +33,7 @@ function Contact() {
   ]
 
     return (
-        <div className='bg-black py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8'>
+        <div className='bg-black min-h-screen flex items-center py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8'>
             <div className='container mx-auto'>
                 <div className='text-center mb-8 sm:mb-12'>
                     <h1 className='text-white text-3xl sm:text-4xl lg:text-5xl font-bold mb-4'>Get i<span className='text-orange-700'>n Touch</span></h1>

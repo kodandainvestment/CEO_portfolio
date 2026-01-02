@@ -7,6 +7,15 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Mac-specific full height sections */
+@media screen and (min-width: 1024px) {
+  .mac-full-height {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+}
+
 /* Custom scrollbar styling */
 ::-webkit-scrollbar {
   width: 8px;

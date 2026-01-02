@@ -29,7 +29,7 @@ export default function Navbar() {
     return (
         <div>
             <nav className="fixed top-0 w-full z-50 bg-black/90 backdrop-blur-sm after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10">
-                <div className="mx-auto max-w-7xl px-2 shadow-lg sm:px-6 lg:px-8">
+                <div className="w-full px-2 shadow-lg sm:px-6 lg:px-8">
                     <div className="relative flex h-16 items-center justify-between">
                         <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                             <button

@@ -26,12 +26,7 @@ export default function Leadership() {
   ];
 
   return (
-    <section className="bg-gray-950 text-white py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
-      {/* Animated Background */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 left-10 w-72 h-72 bg-orange-700 rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
-        <div className="absolute top-40 right-10 w-72 h-72 bg-orange-500 rounded-full mix-blend-multiply filter blur-xl animate-pulse animation-delay-2000"></div>
-      </div>
+    <section className="bg-gray-950 text-white px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20 relative overflow-hidden">
       
       <div className="max-w-7xl mx-auto relative z-10">
         
@@ -50,7 +45,6 @@ export default function Leadership() {
           
           {/* Vision */}
           <div className="group relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-orange-700/20 to-transparent rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-300"></div>
             <div className="relative backdrop-blur-sm bg-white/5 border border-white/10 rounded-3xl p-8 hover:bg-white/10 transition-all duration-300">
               <div className="flex items-center space-x-4 mb-6">
                 <div className="w-16 h-16 bg-gradient-to-br from-orange-700 to-orange-500 rounded-2xl flex items-center justify-center text-2xl transform group-hover:rotate-12 transition-transform duration-300">
@@ -66,7 +60,6 @@ export default function Leadership() {
 
           {/* Mission */}
           <div className="group relative">
-            <div className="absolute inset-0 bg-gradient-to-l from-orange-700/20 to-transparent rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-300"></div>
             <div className="relative backdrop-blur-sm bg-white/5 border border-white/10 rounded-3xl p-8 hover:bg-white/10 transition-all duration-300">
               <div className="flex items-center space-x-4 mb-6">
                 <div className="w-16 h-16 bg-gradient-to-br from-orange-700 to-orange-500 rounded-2xl flex items-center justify-center text-2xl transform group-hover:rotate-12 transition-transform duration-300">
