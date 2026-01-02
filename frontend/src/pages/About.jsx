@@ -40,7 +40,7 @@ function About() {
                             <img
                                 src={ceoImg}
                                 alt="Chahat Tiwari - CEO Portrait"
-                                className='w-full h-96 lg:h-[480px] object-cover object-top rounded-3xl shadow-2xl scale-x-[-1]'
+                                className='w-full h-96 lg:h-[480px] mac:h-160 object-cover object-top rounded-3xl shadow-2xl scale-x-[-1]'
                             />
                             {/* Professional Badge */}
                             {/* <div className='absolute top-6 left-6 bg-black/80 backdrop-blur-sm px-4 py-2 rounded-full border border-orange-700/30'> */}

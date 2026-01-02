@@ -16,6 +16,74 @@ html {
   }
 }
 
+/* Mac-specific styles for 1559x975 screen */
+@media screen and (width: 1559px) and (height: 975px) {
+  .mac-1559\:w-112 {
+    width: 28rem;
+  }
+  
+  .mac-1559\:h-screen {
+    height: 100vh;
+  }
+  
+  .mac-1559\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+  
+  .mac-1559\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+  
+  .mac-1559\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  
+  .mac-1559\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  
+  .mac-1559\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  
+  .mac-1559\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+}
+
+/* Mac-specific styles */
+@media screen and (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .mac\:justify-start {
+    justify-content: flex-start;
+  }
+  
+  .mac\:mb-8 {
+    margin-bottom: 2rem;
+  }
+  
+  .mac\:pt-12 {
+    padding-top: 3rem;
+  }
+  
+  .mac\:w-120 {
+    width: 30rem;
+  }
+  
+  .mac\:h-140 {
+    height: 35rem;
+  }
+  
+  .mac\:h-160 {
+    height: 40rem;
+  }
+}
+
 /* Custom scrollbar styling */
 ::-webkit-scrollbar {
   width: 8px;
