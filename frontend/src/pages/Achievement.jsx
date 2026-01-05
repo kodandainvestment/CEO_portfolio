@@ -49,10 +49,10 @@ function Achievement() {
   ];
 
   const stats = [
-    { number: "5+", label: "Months as CEO" },
-    { number: "IIM", label: "Indore Graduate" },
-    { number: "2027", label: "Graduation Year" },
-    { number: "1", label: "Company Leading" }
+    { number: "MBA", label: "IIM Indore" },
+    { number: "CEO", label: "Leadership" },
+    { number: "2027", label: "Graduate" },
+    { number: "3+", label: "Major Firms" }
   ];
 
   return (

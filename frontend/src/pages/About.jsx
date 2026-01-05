@@ -8,17 +8,17 @@ function About() {
     const block = [
         {
             icon: <CgAwards />,
-            numbers: "5+",
-            name: "Months as CEO",
+            numbers: "MBA",
+            name: "IIM Indore",
         },
         {
             icon: <PiBuildingApartmentFill />,
-            numbers: "1",
-            name: "Company Led",
+            numbers: "CEO",
+            name: "Leadership",
         },
         {
             icon: <TbCalendarEvent />,
-            numbers: "IIM",
+            numbers: "2027",
             name: "Graduate",
         },
     ]
@@ -97,6 +97,13 @@ function About() {
                             <p className='text-gray-300 text-base lg:text-lg leading-relaxed'>
                                 Currently pursuing 
                                 <span className='text-white font-medium'> MBA from IIM Indore</span> with focus on Business Administration, Management, and Finance.
+                            </p>
+                        </div>
+                        
+                        <div className='bg-gradient-to-r from-gray-900/50 to-transparent p-6 rounded-2xl border-l-4 border-orange-500'>
+                            <p className='text-gray-300 text-base lg:text-lg leading-relaxed'>
+                                Previous fund management experience at 
+                                <span className='text-white font-medium'> Goldman Sachs and Axis Bank</span> in strategic investment operations.
                             </p>
                         </div>
                     </div>
