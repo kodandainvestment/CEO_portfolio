@@ -81,9 +81,9 @@ function Home() {
           {/* Stats */}
           <div className="flex gap-6 lg:gap-8 2xl:gap-12 pt-4 2xl:pt-10 border-t border-gray-800">
             {[
-              ["MBA", "IIM Indore"],
               ["CEO", "Leadership"],
-              ["2027", "Graduate"],
+              ["3+", "Major Firms"],
+              ["Fund", "Management"],
             ].map(([value, label]) => (
               <div key={value} className="text-center">
                 <div className="text-xl 2xl:text-2xl font-bold text-orange-500">

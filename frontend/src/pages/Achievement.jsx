@@ -49,10 +49,10 @@ function Achievement() {
   ];
 
   const stats = [
-    { number: "MBA", label: "IIM Indore" },
     { number: "CEO", label: "Leadership" },
-    { number: "2027", label: "Graduate" },
-    { number: "3+", label: "Major Firms" }
+    { number: "3+", label: "Major Firms" },
+    { number: "Fund", label: "Management" },
+    { number: "Investment", label: "Strategy" }
   ];
 
   return (

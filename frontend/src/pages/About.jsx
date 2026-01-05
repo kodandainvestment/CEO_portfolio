@@ -8,18 +8,18 @@ function About() {
     const block = [
         {
             icon: <CgAwards />,
-            numbers: "MBA",
-            name: "IIM Indore",
-        },
-        {
-            icon: <PiBuildingApartmentFill />,
             numbers: "CEO",
             name: "Leadership",
         },
         {
+            icon: <PiBuildingApartmentFill />,
+            numbers: "3+",
+            name: "Major Firms",
+        },
+        {
             icon: <TbCalendarEvent />,
-            numbers: "2027",
-            name: "Graduate",
+            numbers: "Fund",
+            name: "Management",
         },
     ]
     
@@ -90,13 +90,6 @@ function About() {
                             <p className='text-gray-300 text-base lg:text-lg leading-relaxed'>
                                 As CEO of Kodanda Investments Private Limited, I lead strategic investment decisions and financial market analysis with 
                                 <span className='text-orange-500 font-medium'> expertise in share markets and investment strategies</span>.
-                            </p>
-                        </div>
-                        
-                        <div className='bg-gradient-to-r from-gray-900/50 to-transparent p-6 rounded-2xl border-l-4 border-orange-500'>
-                            <p className='text-gray-300 text-base lg:text-lg leading-relaxed'>
-                                Currently pursuing 
-                                <span className='text-white font-medium'> MBA from IIM Indore</span> with focus on Business Administration, Management, and Finance.
                             </p>
                         </div>
                         
